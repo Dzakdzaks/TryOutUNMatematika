@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements FragmentSoal.OnCa
                         btnNext.setEnabled(false);
                         btnPrev.setEnabled(false);
                         getResetScore();
+                        btnStart.setText("Test again!");
                     }
                 }.start();
             }
