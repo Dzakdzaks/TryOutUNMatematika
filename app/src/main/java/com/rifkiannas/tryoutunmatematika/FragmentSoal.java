@@ -178,9 +178,7 @@ public class FragmentSoal extends android.support.v4.app.Fragment {
             score = score + 0;
 //            Toast.makeText(getActivity(), "salah B " + String.valueOf(score), Toast.LENGTH_SHORT).show();
         }
-
-
-
+        
         if (rbC.equals(trueAnswer) && rbJawabanC.isChecked()) {
             score = score + 5;
 //            Toast.makeText(getActivity(), "benar C " + String.valueOf(score), Toast.LENGTH_SHORT).show();
